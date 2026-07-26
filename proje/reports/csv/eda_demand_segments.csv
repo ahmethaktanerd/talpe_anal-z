@@ -1,0 +1,11 @@
+unit,segment,product_count,total_quantity,median_history_days,median_active_ratio
+ADT,continuous,61,195117.0,1221.0,0.7048917401764234
+ADT,intermittent,127,72758.0,1049.0,0.25925925925925924
+ADT,new_short_history,30,461.0,3.5,0.96
+ADT,possibly_inactive,158,64703.0,304.0,0.19128716002530044
+ADT,sparse,23,1649.0,456.0,0.066006600660066
+KG,continuous,72,313685.737,1298.0,0.7484591679506933
+KG,intermittent,61,29731.731,1284.0,0.24347826086956523
+KG,new_short_history,69,1203.769,1.0,1.0
+KG,possibly_inactive,95,15477.201,364.0,0.07954545454545454
+KG,sparse,17,12611.446,1126.0,0.05263157894736842

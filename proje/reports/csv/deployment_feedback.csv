@@ -1,0 +1,4 @@
+Sorumlu,Sorun,Kanıt,Öneri,Öncelik
+İş Sahibi,Uzun vadeli belirsizlik,Fiyat kampanya stok tatil ve hava durumu verileri yok,Bu kaynakları sonraki sürüme ekle,Yüksek
+Model Expert,Kalibre edilmemiş olasılık,Metadata probability_calibrated=false,Olasılığı güven skoru olarak etiketleme; ileride calibration değerlendir,Orta
+DataPrep Expert,Aktif ürün bilgisi dolaylı,Son satıştan beri 90 gün kuralı kullanılıyor,Gerçek ürün aktiflik ve stokta bulunma alanı ekle,Yüksek

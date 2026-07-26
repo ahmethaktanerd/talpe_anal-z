@@ -1,0 +1,31 @@
+group,check,status,evidence
+raw_data,immutable_source_checksum,PASS,b674355d6d3783792d9c6a4cdfb3a0098db3702b8e0e725aca0ff35138e2cb75
+raw_data,all_rows_valid,PASS,183184/183184 satır
+raw_data,product_and_unit_coverage,PASS,"713 ürün; KG=93279, ADT=89905"
+calendar,official_source_manifest,PASS,TR_CALENDAR_2023_2027_V1; 11 kaynak kaydı
+calendar,arbitrary_target_date_context,PASS,"2027-01-02: yılbaşından 1 gün sonra, okul dönemi"
+weather,source_and_location_contract,PASS,Bursa/Osmangazi; ERA5=3123 gün; previous-runs=0 satır
+weather,v1_no_incomplete_forecast_archive,PASS,Eksik forecast arşivi estimator'a bağlanmadı; climatology-only aday katman
+model_ready,train_row_alignment,PASS,"features=364664, targets=364664"
+model_ready,train_feature_completeness,PASS,47 model feature'ı
+model_ready,train_time_safety,PASS,2023-01-30–2026-01-20
+model_ready,validation_row_alignment,PASS,"features=31468, targets=31468"
+model_ready,validation_feature_completeness,PASS,47 model feature'ı
+model_ready,validation_time_safety,PASS,2026-01-28–2026-04-21
+model_ready,test_row_alignment,PASS,"features=30746, targets=30746"
+model_ready,test_feature_completeness,PASS,47 model feature'ı
+model_ready,test_time_safety,PASS,2026-04-29–2026-07-21
+model_ready,chronological_split_order,PASS,train < validation < test ve aralarda zaman tamponu
+bundle,checksum_verification,PASS,10 dosya doğrulandı
+bundle,forecast_contract,PASS,ürün + seçilen tek hedef gün; lead=1–180
+bundle,calendar_feature_contract,PASS,TR_CALENDAR_2023_2027_V1; 18 özel / 47 toplam feature
+bundle,weather_feature_governance,PASS,7 aday; 0 deploy; excluded_after_validation_ablation_no_robust_gain
+notebook,executed_without_errors,PASS,"12 kod hücresi, 0 hata"
+forecast_service,kg_2027_01_02,PASS,$KOFTE HAMBURGER KG; talep=False; miktar=0.0 KG
+forecast_service,kg_calendar_context,PASS,takvim bağlamı servis sonucunda mevcut
+forecast_service,kg_weather_context,PASS,Bursa/Osmangazi şehir merkezi; n=265
+forecast_service,adt_2027_01_02,PASS,$ERSAN JAMBON DANA 100 G (HAZIR DILIM); talep=False; miktar=0.0 ADT
+forecast_service,adt_calendar_context,PASS,takvim bağlamı servis sonucunda mevcut
+forecast_service,adt_weather_context,PASS,Bursa/Osmangazi şehir merkezi; n=265
+automated_tests,pytest_suite,PASS,"23 passed, 14 warnings in 5.70s"
+streamlit,http_smoke_test,PASS,HTTP 200

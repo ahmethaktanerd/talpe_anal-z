@@ -1,0 +1,51 @@
+{
+  "weather_data_version": "BURSA_WEATHER_2026_07_V1",
+  "created_at": "2026-07-26T16:57:40.286640+03:00",
+  "location": {
+    "name": "Bursa",
+    "admin2": "Osmangazi",
+    "country_code": "TR",
+    "latitude": 40.19559,
+    "longitude": 29.06013,
+    "elevation_m": 155.0,
+    "timezone": "Europe/Istanbul",
+    "geocoding_id": 750269
+  },
+  "location_assumption": "Mağaza açık adresi verilmediği için Bursa/Osmangazi şehir merkezi koordinatı kullanıldı.",
+  "observed_weather": {
+    "purpose": "time-safe climatology and descriptive EDA only",
+    "provider": "Open-Meteo Historical Weather API",
+    "upstream_model": "ERA5",
+    "endpoint": "https://archive-api.open-meteo.com/v1/archive",
+    "start": "2018-01-01",
+    "end": "2026-07-20",
+    "file": "data/reference/bursa_weather_observed_era5.csv",
+    "sha256": "acfa75a9351bb288ae81e82eafe44b3cdaaf5130952c04f5036196d357af72ef"
+  },
+  "archived_forecasts": {
+    "enabled_in_current_bundle": false,
+    "purpose": "optional future forecast-as-of model features for fixed 1-7 day leads; disabled in V1 to avoid incomplete archive and train-serving skew",
+    "provider": "Open-Meteo Previous Model Runs API",
+    "endpoint": "https://previous-runs-api.open-meteo.com/v1/forecast",
+    "lead_days": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "start": null,
+    "end": null,
+    "file": "data/reference/bursa_weather_previous_runs.csv",
+    "sha256": "ef1edcf505f17670ed540f94483a3294d7528d2a409f332b325c856e19517b1a"
+  },
+  "geocoding_source": "https://geocoding-api.open-meteo.com/v1/search?name=Bursa&count=5&language=tr&countryCode=TR",
+  "documentation": [
+    "https://open-meteo.com/en/docs/historical-weather-api",
+    "https://open-meteo.com/en/docs/previous-runs-api",
+    "https://open-meteo.com/en/docs"
+  ],
+  "leakage_contract": "Observed target-date weather is never a model feature. Current V1 uses only climatology calculated from weather dates strictly before forecast_origin. Optional fixed-lead forecasts may be enabled only after complete train/validation archive verification."
+}

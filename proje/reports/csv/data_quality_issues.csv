@@ -1,0 +1,185 @@
+source_row,date,product_id,product_name,raw_quantity,quantity,unit,parse_status,date_status,record_status,issue_type
+7748,2025-02-21,12938454,$PINAR SUCUK FERMENTE 300 G,78 ADT,78.0,ADT,ok,ok,valid,high_value_review_candidate
+8805,2025-02-28,12856214,DANET KAVURMA 100G,63 ADT,63.0,ADT,ok,ok,valid,high_value_review_candidate
+8823,2025-02-28,13244988,POLONEZ PASTIRMA CEMENSIZ 100 G SECME,229 ADT,229.0,ADT,ok,ok,valid,high_value_review_candidate
+8994,2025-03-01,12856214,DANET KAVURMA 100G,117 ADT,117.0,ADT,ok,ok,valid,high_value_review_candidate
+9008,2025-03-01,13244988,POLONEZ PASTIRMA CEMENSIZ 100 G SECME,299 ADT,299.0,ADT,ok,ok,valid,high_value_review_candidate
+9172,2025-03-02,12856214,DANET KAVURMA 100G,89 ADT,89.0,ADT,ok,ok,valid,high_value_review_candidate
+9187,2025-03-02,13244988,POLONEZ PASTIRMA CEMENSIZ 100 G SECME,295 ADT,295.0,ADT,ok,ok,valid,high_value_review_candidate
+9340,2025-03-03,13244988,POLONEZ PASTIRMA CEMENSIZ 100 G SECME,206 ADT,206.0,ADT,ok,ok,valid,high_value_review_candidate
+9399,2025-03-04,10002452,NAMET SUCUK DANA KANGAL 200 G VAK,588 ADT,588.0,ADT,ok,ok,valid,high_value_review_candidate
+9481,2025-03-04,13244988,POLONEZ PASTIRMA CEMENSIZ 100 G SECME,192 ADT,192.0,ADT,ok,ok,valid,high_value_review_candidate
+9632,2025-03-05,13244988,POLONEZ PASTIRMA CEMENSIZ 100 G SECME,148 ADT,148.0,ADT,ok,ok,valid,high_value_review_candidate
+9769,2025-03-06,13244988,POLONEZ PASTIRMA CEMENSIZ 100 G SECME,173 ADT,173.0,ADT,ok,ok,valid,high_value_review_candidate
+11202,2025-03-15,13244988,POLONEZ PASTIRMA CEMENSIZ 100 G SECME,75 ADT,75.0,ADT,ok,ok,valid,high_value_review_candidate
+12947,2025-03-26,13244988,POLONEZ PASTIRMA CEMENSIZ 100 G SECME,72 ADT,72.0,ADT,ok,ok,valid,high_value_review_candidate
+13168,2025-03-28,10002572,KEMIK KUZU KG(TOPTAN),"263,400 KG",263.4,KG,ok,ok,valid,high_value_review_candidate
+13463,2025-03-29,13244988,POLONEZ PASTIRMA CEMENSIZ 100 G SECME,87 ADT,87.0,ADT,ok,ok,valid,high_value_review_candidate
+15520,2025-04-12,13244988,POLONEZ PASTIRMA CEMENSIZ 100 G SECME,70 ADT,70.0,ADT,ok,ok,valid,high_value_review_candidate
+17335,2025-04-25,10002572,KEMIK KUZU KG(TOPTAN),"360,000 KG",360.0,KG,ok,ok,valid,high_value_review_candidate
+18598,2025-05-03,13244988,POLONEZ PASTIRMA CEMENSIZ 100 G SECME,79 ADT,79.0,ADT,ok,ok,valid,high_value_review_candidate
+19586,2025-05-10,13244988,POLONEZ PASTIRMA CEMENSIZ 100 G SECME,109 ADT,109.0,ADT,ok,ok,valid,high_value_review_candidate
+19764,2025-05-11,13244988,POLONEZ PASTIRMA CEMENSIZ 100 G SECME,82 ADT,82.0,ADT,ok,ok,valid,high_value_review_candidate
+20380,2025-05-16,10002572,KEMIK KUZU KG(TOPTAN),"168,700 KG",168.7,KG,ok,ok,valid,high_value_review_candidate
+20609,2025-05-17,13244988,POLONEZ PASTIRMA CEMENSIZ 100 G SECME,68 ADT,68.0,ADT,ok,ok,valid,high_value_review_candidate
+20767,2025-05-18,13244988,POLONEZ PASTIRMA CEMENSIZ 100 G SECME,85 ADT,85.0,ADT,ok,ok,valid,high_value_review_candidate
+22285,2025-05-30,10002572,KEMIK KUZU KG(TOPTAN),"89,600 KG",89.6,KG,ok,ok,valid,high_value_review_candidate
+23424,2025-06-06,76000465,KIYMA CEKME HIZMETI KG,"254,213 KG",254.213,KG,ok,ok,valid,high_value_review_candidate
+23425,2025-06-06,76001114,DANA KEMIKLI ET ISLEME HIZMETI KG,"82,625 KG",82.625,KG,ok,ok,valid,high_value_review_candidate
+23575,2025-06-07,76000465,KIYMA CEKME HIZMETI KG,"516,585 KG",516.585,KG,ok,ok,valid,high_value_review_candidate
+23576,2025-06-07,76001114,DANA KEMIKLI ET ISLEME HIZMETI KG,"82,946 KG",82.946,KG,ok,ok,valid,high_value_review_candidate
+26215,2025-06-27,10002572,KEMIK KUZU KG(TOPTAN),"248,800 KG",248.8,KG,ok,ok,valid,high_value_review_candidate
+29391,2025-07-19,13172238,DANET SUCUK FERMENTE 300G COGR.ISR.,78 ADT,78.0,ADT,ok,ok,valid,high_value_review_candidate
+29545,2025-07-20,13172238,DANET SUCUK FERMENTE 300G COGR.ISR.,73 ADT,73.0,ADT,ok,ok,valid,high_value_review_candidate
+30243,2025-07-25,13814944,$POLONEZ DANA FERMENTE KASAP SUCUK 250 G,197 ADT,197.0,ADT,ok,ok,valid,high_value_review_candidate
+30396,2025-07-26,13814944,$POLONEZ DANA FERMENTE KASAP SUCUK 250 G,250 ADT,250.0,ADT,ok,ok,valid,high_value_review_candidate
+30526,2025-07-27,13814944,$POLONEZ DANA FERMENTE KASAP SUCUK 250 G,126 ADT,126.0,ADT,ok,ok,valid,high_value_review_candidate
+30659,2025-07-28,13814944,$POLONEZ DANA FERMENTE KASAP SUCUK 250 G,95 ADT,95.0,ADT,ok,ok,valid,high_value_review_candidate
+30930,2025-07-30,13814944,$POLONEZ DANA FERMENTE KASAP SUCUK 250 G,116 ADT,116.0,ADT,ok,ok,valid,high_value_review_candidate
+31051,2025-07-31,13814944,$POLONEZ DANA FERMENTE KASAP SUCUK 250 G,174 ADT,174.0,ADT,ok,ok,valid,high_value_review_candidate
+31200,2025-08-01,13814944,$POLONEZ DANA FERMENTE KASAP SUCUK 250 G,116 ADT,116.0,ADT,ok,ok,valid,high_value_review_candidate
+31253,2025-08-02,10002572,KEMIK KUZU KG(TOPTAN),"332,600 KG",332.6,KG,ok,ok,valid,high_value_review_candidate
+31352,2025-08-02,13814944,$POLONEZ DANA FERMENTE KASAP SUCUK 250 G,164 ADT,164.0,ADT,ok,ok,valid,high_value_review_candidate
+31493,2025-08-03,13814944,$POLONEZ DANA FERMENTE KASAP SUCUK 250 G,124 ADT,124.0,ADT,ok,ok,valid,high_value_review_candidate
+31623,2025-08-04,13814944,$POLONEZ DANA FERMENTE KASAP SUCUK 250 G,64 ADT,64.0,ADT,ok,ok,valid,high_value_review_candidate
+32218,2025-08-09,11644334,KOFTE IZGARA INEGOL KG,"85,050 KG",85.05,KG,ok,ok,valid,high_value_review_candidate
+32370,2025-08-10,11644334,KOFTE IZGARA INEGOL KG,"96,930 KG",96.93,KG,ok,ok,valid,high_value_review_candidate
+34852,2025-08-28,10002572,KEMIK KUZU KG(TOPTAN),"134,360 KG",134.36,KG,ok,ok,valid,high_value_review_candidate
+39916,2025-10-01,10002572,KEMIK KUZU KG(TOPTAN),"227,880 KG",227.88,KG,ok,ok,valid,high_value_review_candidate
+41484,2025-10-11,11644334,KOFTE IZGARA INEGOL KG,"118,659 KG",118.659,KG,ok,ok,valid,high_value_review_candidate
+41660,2025-10-12,11644334,KOFTE IZGARA INEGOL KG,"135,176 KG",135.176,KG,ok,ok,valid,high_value_review_candidate
+44922,2025-11-04,10002572,KEMIK KUZU KG(TOPTAN),"337,396 KG",337.396,KG,ok,ok,valid,high_value_review_candidate
+48991,2025-12-02,10002572,KEMIK KUZU KG(TOPTAN),"217,337 KG",217.337,KG,ok,ok,valid,high_value_review_candidate
+53277,2025-12-30,11771905,HINDI BUTUN KG (PARCA BARKOD),"197,965 KG",197.965,KG,ok,ok,valid,high_value_review_candidate
+53474,2025-12-31,11771905,HINDI BUTUN KG (PARCA BARKOD),"121,341 KG",121.341,KG,ok,ok,valid,high_value_review_candidate
+54336,2026-01-06,10002572,KEMIK KUZU KG(TOPTAN),"243,300 KG",243.3,KG,ok,ok,valid,high_value_review_candidate
+59479,2026-02-10,10002572,KEMIK KUZU KG(TOPTAN),"336,840 KG",336.84,KG,ok,ok,valid,high_value_review_candidate
+60295,2026-02-15,12854028,SENPILIC P.TAB.FILETO KG,"132,998 KG",132.998,KG,ok,ok,valid,high_value_review_candidate
+60600,2026-02-17,12854028,SENPILIC P.TAB.FILETO KG,"95,566 KG",95.566,KG,ok,ok,valid,high_value_review_candidate
+60966,2026-02-19,13244988,POLONEZ PASTIRMA CEMENSIZ 100 G SECME,73 ADT,73.0,ADT,ok,ok,valid,high_value_review_candidate
+61048,2026-02-20,10002611,KUZU CIKINTI YAG KG,"367,200 KG",367.2,KG,ok,ok,valid,high_value_review_candidate
+61088,2026-02-20,11552083,DANA CIKINTI YAG KG,"1.673,200 KG",1673.2,KG,ok,ok,valid,high_value_review_candidate
+61170,2026-02-20,14172576,A.IPEK PASTIRMA CEMENSIZ 100 G,110 ADT,110.0,ADT,ok,ok,valid,high_value_review_candidate
+61293,2026-02-21,12854028,SENPILIC P.TAB.FILETO KG,"130,250 KG",130.25,KG,ok,ok,valid,high_value_review_candidate
+61343,2026-02-21,14172576,A.IPEK PASTIRMA CEMENSIZ 100 G,107 ADT,107.0,ADT,ok,ok,valid,high_value_review_candidate
+61467,2026-02-22,12854028,SENPILIC P.TAB.FILETO KG,"103,974 KG",103.974,KG,ok,ok,valid,high_value_review_candidate
+61526,2026-02-22,14172576,A.IPEK PASTIRMA CEMENSIZ 100 G,130 ADT,130.0,ADT,ok,ok,valid,high_value_review_candidate
+61658,2026-02-23,14172576,A.IPEK PASTIRMA CEMENSIZ 100 G,66 ADT,66.0,ADT,ok,ok,valid,high_value_review_candidate
+62086,2026-02-26,14172576,A.IPEK PASTIRMA CEMENSIZ 100 G,111 ADT,111.0,ADT,ok,ok,valid,high_value_review_candidate
+62243,2026-02-27,14172576,A.IPEK PASTIRMA CEMENSIZ 100 G,70 ADT,70.0,ADT,ok,ok,valid,high_value_review_candidate
+62373,2026-02-28,12854028,SENPILIC P.TAB.FILETO KG,"95,056 KG",95.056,KG,ok,ok,valid,high_value_review_candidate
+62433,2026-02-28,14172576,A.IPEK PASTIRMA CEMENSIZ 100 G,129 ADT,129.0,ADT,ok,ok,valid,high_value_review_candidate
+62551,2026-03-01,12854028,SENPILIC P.TAB.FILETO KG,"106,544 KG",106.544,KG,ok,ok,valid,high_value_review_candidate
+63060,2026-03-05,10002572,KEMIK KUZU KG(TOPTAN),"129,890 KG",129.89,KG,ok,ok,valid,high_value_review_candidate
+63158,2026-03-05,14172576,A.IPEK PASTIRMA CEMENSIZ 100 G,72 ADT,72.0,ADT,ok,ok,valid,high_value_review_candidate
+63428,2026-03-07,12854023,SENPILIC P.TAB.PIRZOLA KG,"91,458 KG",91.458,KG,ok,ok,valid,high_value_review_candidate
+63606,2026-03-08,12854028,SENPILIC P.TAB.FILETO KG,"89,318 KG",89.318,KG,ok,ok,valid,high_value_review_candidate
+63916,2026-03-10,12854028,SENPILIC P.TAB.FILETO KG,"101,926 KG",101.926,KG,ok,ok,valid,high_value_review_candidate
+64076,2026-03-11,12854028,SENPILIC P.TAB.FILETO KG,"83,298 KG",83.298,KG,ok,ok,valid,high_value_review_candidate
+64282,2026-03-13,10002014,DANA DOS KIYMALIK ET KG,"94,066 KG",94.066,KG,ok,ok,valid,high_value_review_candidate
+64509,2026-03-14,10002873,LEZITA PILIC PIRZOLA KG,"100,918 KG",100.918,KG,ok,ok,valid,high_value_review_candidate
+64805,2026-03-16,10002071,DANA AZ YAGLI KIYMALIK ET KG,"98,958 KG",98.958,KG,ok,ok,valid,high_value_review_candidate
+67249,2026-04-02,10002572,KEMIK KUZU KG(TOPTAN),"438,200 KG",438.2,KG,ok,ok,valid,high_value_review_candidate
+68580,2026-04-11,12854028,SENPILIC P.TAB.FILETO KG,"85,192 KG",85.192,KG,ok,ok,valid,high_value_review_candidate
+69954,2026-04-21,10002014,DANA DOS KIYMALIK ET KG,"90,842 KG",90.842,KG,ok,ok,valid,high_value_review_candidate
+70717,2026-04-26,12854023,SENPILIC P.TAB.PIRZOLA KG,"106,348 KG",106.348,KG,ok,ok,valid,high_value_review_candidate
+71803,2026-05-04,10002572,KEMIK KUZU KG(TOPTAN),"302,570 KG",302.57,KG,ok,ok,valid,high_value_review_candidate
+72458,2026-05-09,11644334,KOFTE IZGARA INEGOL KG,"96,370 KG",96.37,KG,ok,ok,valid,high_value_review_candidate
+72644,2026-05-10,11644334,KOFTE IZGARA INEGOL KG,"89,500 KG",89.5,KG,ok,ok,valid,high_value_review_candidate
+73324,2026-05-15,12854028,SENPILIC P.TAB.FILETO KG,"85,854 KG",85.854,KG,ok,ok,valid,high_value_review_candidate
+73614,2026-05-17,12854028,SENPILIC P.TAB.FILETO KG,"115,878 KG",115.878,KG,ok,ok,valid,high_value_review_candidate
+74706,2026-05-25,10002572,KEMIK KUZU KG(TOPTAN),"242,901 KG",242.901,KG,ok,ok,valid,high_value_review_candidate
+75225,2026-05-28,76000465,KIYMA CEKME HIZMETI KG,"383,143 KG",383.143,KG,ok,ok,valid,high_value_review_candidate
+75922,2026-06-04,10002572,KEMIK KUZU KG(TOPTAN),"151,200 KG",151.2,KG,ok,ok,valid,high_value_review_candidate
+77259,2026-06-14,12854028,SENPILIC P.TAB.FILETO KG,"86,674 KG",86.674,KG,ok,ok,valid,high_value_review_candidate
+77400,2026-06-15,12854028,SENPILIC P.TAB.FILETO KG,"86,286 KG",86.286,KG,ok,ok,valid,high_value_review_candidate
+80181,2026-07-06,10002572,KEMIK KUZU KG(TOPTAN),"184,268 KG",184.268,KG,ok,ok,valid,high_value_review_candidate
+82679,2023-01-03,10728085,YILBASI HINDISI KG,"109,874 KG",109.874,KG,ok,ok,valid,high_value_review_candidate
+85371,2023-01-23,10002572,KEMIK KUZU KG(TOPTAN),"177,300 KG",177.3,KG,ok,ok,valid,high_value_review_candidate
+86933,2023-02-03,13120214,$PINAR SUCUK ILLAKI FERMENTE 240 G,71 ADT,71.0,ADT,ok,ok,valid,high_value_review_candidate
+87067,2023-02-04,12323467,$CUMHURIYET PASTIRMA CEMENSIZ 75 G,64 ADT,64.0,ADT,ok,ok,valid,high_value_review_candidate
+87094,2023-02-04,13120214,$PINAR SUCUK ILLAKI FERMENTE 240 G,79 ADT,79.0,ADT,ok,ok,valid,high_value_review_candidate
+87261,2023-02-05,13120214,$PINAR SUCUK ILLAKI FERMENTE 240 G,116 ADT,116.0,ADT,ok,ok,valid,high_value_review_candidate
+87784,2023-02-09,13120214,$PINAR SUCUK ILLAKI FERMENTE 240 G,82 ADT,82.0,ADT,ok,ok,valid,high_value_review_candidate
+89895,2023-02-25,10002572,KEMIK KUZU KG(TOPTAN),"233,400 KG",233.4,KG,ok,ok,valid,high_value_review_candidate
+92786,2023-03-17,12323467,$CUMHURIYET PASTIRMA CEMENSIZ 75 G,80 ADT,80.0,ADT,ok,ok,valid,high_value_review_candidate
+92976,2023-03-18,12323467,$CUMHURIYET PASTIRMA CEMENSIZ 75 G,134 ADT,134.0,ADT,ok,ok,valid,high_value_review_candidate
+93163,2023-03-19,12323467,$CUMHURIYET PASTIRMA CEMENSIZ 75 G,109 ADT,109.0,ADT,ok,ok,valid,high_value_review_candidate
+93255,2023-03-20,10002528,$NAMET SUCUK DANA FERMENTE 225 G VAK.,2.334 ADT,2334.0,ADT,ok,ok,valid,high_value_review_candidate
+93309,2023-03-20,12323467,$CUMHURIYET PASTIRMA CEMENSIZ 75 G,78 ADT,78.0,ADT,ok,ok,valid,high_value_review_candidate
+93451,2023-03-21,12323467,$CUMHURIYET PASTIRMA CEMENSIZ 75 G,73 ADT,73.0,ADT,ok,ok,valid,high_value_review_candidate
+93623,2023-03-22,12323467,$CUMHURIYET PASTIRMA CEMENSIZ 75 G,120 ADT,120.0,ADT,ok,ok,valid,high_value_review_candidate
+93805,2023-03-23,12323467,$CUMHURIYET PASTIRMA CEMENSIZ 75 G,119 ADT,119.0,ADT,ok,ok,valid,high_value_review_candidate
+93897,2023-03-24,10002572,KEMIK KUZU KG(TOPTAN),"176,000 KG",176.0,KG,ok,ok,valid,high_value_review_candidate
+94744,2023-03-29,10002572,KEMIK KUZU KG(TOPTAN),"191,200 KG",191.2,KG,ok,ok,valid,high_value_review_candidate
+96866,2023-04-12,10002574,KEMIK DANA KG(TOPTAN),"135,400 KG",135.4,KG,ok,ok,valid,high_value_review_candidate
+97886,2023-04-18,13235960,POLONEZ MINI JAMBON DANA 50 G,76 ADT,76.0,ADT,ok,ok,valid,high_value_review_candidate
+99038,2023-04-27,10002574,KEMIK DANA KG(TOPTAN),"200,000 KG",200.0,KG,ok,ok,valid,high_value_review_candidate
+101546,2023-05-16,10002572,KEMIK KUZU KG(TOPTAN),"346,600 KG",346.6,KG,ok,ok,valid,high_value_review_candidate
+104607,2023-06-09,10002572,KEMIK KUZU KG(TOPTAN),"197,200 KG",197.2,KG,ok,ok,valid,high_value_review_candidate
+107222,2023-06-28,76000465,KIYMA CEKME HIZMETI KG,"257,838 KG",257.838,KG,ok,ok,valid,high_value_review_candidate
+107345,2023-06-29,76000465,KIYMA CEKME HIZMETI KG,"374,823 KG",374.823,KG,ok,ok,valid,high_value_review_candidate
+107346,2023-06-29,76000466,KUZU KEMIKLI ET ISLEME HIZMETI KG,"187,024 KG",187.024,KG,ok,ok,valid,high_value_review_candidate
+107460,2023-06-30,76000466,KUZU KEMIKLI ET ISLEME HIZMETI KG,"98,360 KG",98.36,KG,ok,ok,valid,high_value_review_candidate
+111520,2023-08-01,10002572,KEMIK KUZU KG(TOPTAN),"123,700 KG",123.7,KG,ok,ok,valid,high_value_review_candidate
+113652,2023-08-17,11644334,KOFTE IZGARA INEGOL KG,"119,747 KG",119.747,KG,ok,ok,valid,high_value_review_candidate
+119187,2023-09-27,10002572,KEMIK KUZU KG(TOPTAN),"110,400 KG",110.4,KG,ok,ok,valid,high_value_review_candidate
+121490,2023-10-14,10963655,NAMET DANA DONER 200 G,79 ADT,79.0,ADT,ok,ok,valid,high_value_review_candidate
+121634,2023-10-15,10963655,NAMET DANA DONER 200 G,78 ADT,78.0,ADT,ok,ok,valid,high_value_review_candidate
+121889,2023-10-17,10963655,NAMET DANA DONER 200 G,67 ADT,67.0,ADT,ok,ok,valid,high_value_review_candidate
+122547,2023-10-22,10963655,NAMET DANA DONER 200 G,142 ADT,142.0,ADT,ok,ok,valid,high_value_review_candidate
+122678,2023-10-23,10963655,NAMET DANA DONER 200 G,82 ADT,82.0,ADT,ok,ok,valid,high_value_review_candidate
+122796,2023-10-24,10963655,NAMET DANA DONER 200 G,106 ADT,106.0,ADT,ok,ok,valid,high_value_review_candidate
+122924,2023-10-25,10963655,NAMET DANA DONER 200 G,66 ADT,66.0,ADT,ok,ok,valid,high_value_review_candidate
+123041,2023-10-26,10963655,NAMET DANA DONER 200 G,87 ADT,87.0,ADT,ok,ok,valid,high_value_review_candidate
+123167,2023-10-27,10963655,NAMET DANA DONER 200 G,63 ADT,63.0,ADT,ok,ok,valid,high_value_review_candidate
+123269,2023-10-28,10002572,KEMIK KUZU KG(TOPTAN),"140,600 KG",140.6,KG,ok,ok,valid,high_value_review_candidate
+131749,2023-12-27,10002572,KEMIK KUZU KG(TOPTAN),"198,200 KG",198.2,KG,ok,ok,valid,high_value_review_candidate
+132125,2023-12-29,12854024,SENPILIC P.POSET PILIC KG,"118,592 KG",118.592,KG,ok,ok,valid,high_value_review_candidate
+132170,2023-12-29,13451492,DANET SUCUK DANA FERMENTE 500 G PKT,120 ADT,120.0,ADT,ok,ok,valid,high_value_review_candidate
+132275,2023-12-30,10728085,YILBASI HINDISI KG,"113,899 KG",113.899,KG,ok,ok,valid,high_value_review_candidate
+132501,2023-12-31,11771905,HINDI BUTUN KG (PARCA BARKOD),"168,745 KG",168.745,KG,ok,ok,valid,high_value_review_candidate
+134206,2024-01-13,10002467,$NAMET SUCUK DANA KANGAL 300 G KUVET,90 ADT,90.0,ADT,ok,ok,valid,high_value_review_candidate
+134367,2024-01-14,10002467,$NAMET SUCUK DANA KANGAL 300 G KUVET,77 ADT,77.0,ADT,ok,ok,valid,high_value_review_candidate
+134642,2024-01-16,10002467,$NAMET SUCUK DANA KANGAL 300 G KUVET,63 ADT,63.0,ADT,ok,ok,valid,high_value_review_candidate
+136507,2024-01-29,10002572,KEMIK KUZU KG(TOPTAN),"202,000 KG",202.0,KG,ok,ok,valid,high_value_review_candidate
+137189,2024-02-03,10002467,$NAMET SUCUK DANA KANGAL 300 G KUVET,80 ADT,80.0,ADT,ok,ok,valid,high_value_review_candidate
+137355,2024-02-04,10002467,$NAMET SUCUK DANA KANGAL 300 G KUVET,89 ADT,89.0,ADT,ok,ok,valid,high_value_review_candidate
+140894,2024-02-28,10002572,KEMIK KUZU KG(TOPTAN),"106,500 KG",106.5,KG,ok,ok,valid,high_value_review_candidate
+142035,2024-03-07,10002456,$NAMET SUCUK DANA KLASIK 250 G,2.211 ADT,2211.0,ADT,ok,ok,valid,high_value_review_candidate
+142281,2024-03-08,13525683,$A.IPEK KAVURMA 100 G (HAZIR DILIM),133 ADT,133.0,ADT,ok,ok,valid,high_value_review_candidate
+142282,2024-03-08,13530026,$A.IPEK PASTIRMA 100 G (DELİST),232 ADT,232.0,ADT,ok,ok,valid,high_value_review_candidate
+142463,2024-03-09,13525683,$A.IPEK KAVURMA 100 G (HAZIR DILIM),135 ADT,135.0,ADT,ok,ok,valid,high_value_review_candidate
+142464,2024-03-09,13530026,$A.IPEK PASTIRMA 100 G (DELİST),274 ADT,274.0,ADT,ok,ok,valid,high_value_review_candidate
+142658,2024-03-10,13525683,$A.IPEK KAVURMA 100 G (HAZIR DILIM),188 ADT,188.0,ADT,ok,ok,valid,high_value_review_candidate
+142659,2024-03-10,13530026,$A.IPEK PASTIRMA 100 G (DELİST),296 ADT,296.0,ADT,ok,ok,valid,high_value_review_candidate
+142806,2024-03-11,13525683,$A.IPEK KAVURMA 100 G (HAZIR DILIM),84 ADT,84.0,ADT,ok,ok,valid,high_value_review_candidate
+142807,2024-03-11,13530026,$A.IPEK PASTIRMA 100 G (DELİST),198 ADT,198.0,ADT,ok,ok,valid,high_value_review_candidate
+142961,2024-03-12,13525683,$A.IPEK KAVURMA 100 G (HAZIR DILIM),102 ADT,102.0,ADT,ok,ok,valid,high_value_review_candidate
+142962,2024-03-12,13530026,$A.IPEK PASTIRMA 100 G (DELİST),208 ADT,208.0,ADT,ok,ok,valid,high_value_review_candidate
+143114,2024-03-13,13530026,$A.IPEK PASTIRMA 100 G (DELİST),176 ADT,176.0,ADT,ok,ok,valid,high_value_review_candidate
+143238,2024-03-14,13530026,$A.IPEK PASTIRMA 100 G (DELİST),195 ADT,195.0,ADT,ok,ok,valid,high_value_review_candidate
+145254,2024-03-28,10002572,KEMIK KUZU KG(TOPTAN),"200,300 KG",200.3,KG,ok,ok,valid,high_value_review_candidate
+149529,2024-04-27,10002572,KEMIK KUZU KG(TOPTAN),"191,300 KG",191.3,KG,ok,ok,valid,high_value_review_candidate
+153800,2024-05-29,10002572,KEMIK KUZU KG(TOPTAN),"150,050 KG",150.05,KG,ok,ok,valid,high_value_review_candidate
+155526,2024-06-11,10002572,KEMIK KUZU KG(TOPTAN),"104,300 KG",104.3,KG,ok,ok,valid,high_value_review_candidate
+156327,2024-06-16,76000465,KIYMA CEKME HIZMETI KG,"137,355 KG",137.355,KG,ok,ok,valid,high_value_review_candidate
+156461,2024-06-17,76000465,KIYMA CEKME HIZMETI KG,"414,076 KG",414.076,KG,ok,ok,valid,high_value_review_candidate
+157925,2024-06-29,13215825,KUZU KOKOREC DOG. 200 G DONUK,87 ADT,87.0,ADT,ok,ok,valid,high_value_review_candidate
+158064,2024-06-30,13215825,KUZU KOKOREC DOG. 200 G DONUK,77 ADT,77.0,ADT,ok,ok,valid,high_value_review_candidate
+158201,2024-07-01,13215825,KUZU KOKOREC DOG. 200 G DONUK,63 ADT,63.0,ADT,ok,ok,valid,high_value_review_candidate
+161667,2024-07-29,10002572,KEMIK KUZU KG(TOPTAN),"188,540 KG",188.54,KG,ok,ok,valid,high_value_review_candidate
+163276,2024-08-10,11644334,KOFTE IZGARA INEGOL KG,"167,616 KG",167.616,KG,ok,ok,valid,high_value_review_candidate
+163425,2024-08-11,11644334,KOFTE IZGARA INEGOL KG,"90,396 KG",90.396,KG,ok,ok,valid,high_value_review_candidate
+163558,2024-08-12,11644334,KOFTE IZGARA INEGOL KG,"114,220 KG",114.22,KG,ok,ok,valid,high_value_review_candidate
+163685,2024-08-13,11644334,KOFTE IZGARA INEGOL KG,"90,452 KG",90.452,KG,ok,ok,valid,high_value_review_candidate
+163934,2024-08-15,11644334,KOFTE IZGARA INEGOL KG,"120,696 KG",120.696,KG,ok,ok,valid,high_value_review_candidate
+165516,2024-08-27,10002572,KEMIK KUZU KG(TOPTAN),"140,000 KG",140.0,KG,ok,ok,valid,high_value_review_candidate
+169558,2024-09-26,10002572,KEMIK KUZU KG(TOPTAN),"105,400 KG",105.4,KG,ok,ok,valid,high_value_review_candidate
+171963,2024-10-13,13790920,$MARET DANA DONER 200 G,79 ADT,79.0,ADT,ok,ok,valid,high_value_review_candidate
+175838,2024-11-10,13790920,$MARET DANA DONER 200 G,81 ADT,81.0,ADT,ok,ok,valid,high_value_review_candidate
+176819,2024-11-17,13790920,$MARET DANA DONER 200 G,66 ADT,66.0,ADT,ok,ok,valid,high_value_review_candidate
+179388,2024-12-06,10002572,KEMIK KUZU KG(TOPTAN),"139,500 KG",139.5,KG,ok,ok,valid,high_value_review_candidate
+182830,2024-12-29,10002093,BOLCA HINDI BUTUN KG,"88,536 KG",88.536,KG,ok,ok,valid,high_value_review_candidate
+183109,2024-12-30,11771905,HINDI BUTUN KG (PARCA BARKOD),"182,593 KG",182.593,KG,ok,ok,valid,high_value_review_candidate
+183117,2024-12-30,12854024,SENPILIC P.POSET PILIC KG,"91,430 KG",91.43,KG,ok,ok,valid,high_value_review_candidate

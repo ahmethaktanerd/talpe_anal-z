@@ -1,0 +1,1 @@
+"""Streamlit talep tahmini uygulaması."""

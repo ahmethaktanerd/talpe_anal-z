@@ -1,0 +1,15 @@
+metric,value
+raw_sha256,b674355d6d3783792d9c6a4cdfb3a0098db3702b8e0e725aca0ff35138e2cb75
+raw_rows,183184
+valid_rows,183184
+invalid_rows,0
+unique_products,713
+date_start,2023-01-01
+date_end,2026-07-21
+calendar_days,1298
+observed_store_days,1297
+missing_store_days,1
+exact_duplicates,0
+product_date_duplicates,0
+kg_rows,93279
+adt_rows,89905

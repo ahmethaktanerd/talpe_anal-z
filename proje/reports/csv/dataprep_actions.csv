@@ -1,0 +1,7 @@
+Aşama,Sorun,Karar,Gerekçe,Risk
+Parsing,Türkçe sayı biçimi,"Nokta binlik, virgül ondalık olarak ayrıştırıldı",Ham veri sözleşmesi ve üç karma biçimli kayıt,Düşük
+Günlük panel,Satışsız gün,Gözlenen mağaza gününde aktif pencerede 0; genel eksik gün NaN,Sessiz sıfır atamasını engellemek,Orta
+Hedef,Kullanıcı seçili gelecek tarih istiyor,Doğrudan çok-ufuklu günlük hedef,1–180 gün arası seçilebilir tarih,Orta
+Split,Zaman sızıntısı,Target-date tabanlı kronolojik train/validation/test,Gelecek hedef günleri eğitimden ayırmak,Düşük
+Özel takvim,"Bayram, tatil ve okul dönemlerinde talep rejimi değişebilir","Resmî/dinî tatil, Ramazan, tatil önce-sonra pencereleri ve MEB okul dönemleri target-date feature'ı yapıldı",Tahmin anında önceden bilinen dışsal takvim bilgisi,Yerel okul kapanışları ve mağaza özel çalışma saatleri eksik
+Hava durumu,Hedef gün gerçekleşen hava bilgisi gelecekte bilinmez,"2018'den başlayan ERA5 geçmişinden, her forecast origin öncesi ±15 günlük mevsimsel klimatoloji üretildi",1–180 gün boyunca train/serving eşitliği ve hedef-gün hava sızıntısını engellemek,Mağaza açık adresi yerine Bursa/Osmangazi merkez koordinatı; ani gelecek hava değişimi uzun ufukta bilinemez

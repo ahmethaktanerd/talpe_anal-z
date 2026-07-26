@@ -1,0 +1,14 @@
+test_group,scenario,status,evidence
+bundle,metadata_and_checksums,PASS,model_metadata and configured checksums loaded
+bundle,kg_and_adt_models,PASS,both occurrence and quantity models loaded
+bundle,calendar_version_and_checksums,PASS,calendar code and MEB/Diyanet source manifest checksums matched metadata
+input,target_date_1_to_180_days,PASS,boundary tests passed
+input,invalid_unit,PASS,unsupported unit rejected
+features,target_date_time_safety,PASS,forecast_origin precedes target_date and features are complete
+features,special_calendar_context,PASS,18 special calendar features are generated identically for train and inference
+forecast,kg_165_day_example,PASS,2 Ocak 2027 için nonnegative probability and quantity returned
+forecast,adt_165_day_example,PASS,2 Ocak 2027 için nonnegative probability and quantity returned
+forecast,holiday_school_context,PASS,public holiday religious special day and school status returned
+forecast,unknown_product,PASS,unknown product rejected
+forecast,insufficient_history,PASS,explicit status returned
+streamlit,http_smoke_test,PASS,HTTP 200 on local port 8765

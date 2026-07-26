@@ -1,0 +1,242 @@
+{
+  "model_version": "2026.07.26-weather-v3",
+  "created_at": "2026-07-26T17:07:16.413361+03:00",
+  "forecast_type": "direct_multi_horizon_daily",
+  "forecast_origin": "2026-07-21",
+  "max_forecast_lead_days": 180,
+  "decision_grain": "product-target_date",
+  "targets": [
+    "demand_occurs",
+    "target_demand"
+  ],
+  "units": [
+    "KG",
+    "ADT"
+  ],
+  "model_layout": "per_unit",
+  "unit_model_map": {
+    "KG": {
+      "occurrence_model_path": "occurrence_model_kg.pkl",
+      "quantity_model_path": "quantity_model_kg.pkl",
+      "pipeline_path": null,
+      "occurrence_model_name": "extra_trees",
+      "quantity_model_name": "hist_gradient_boosting_poisson"
+    },
+    "ADT": {
+      "occurrence_model_path": "occurrence_model_adt.pkl",
+      "quantity_model_path": "quantity_model_adt.pkl",
+      "pipeline_path": null,
+      "occurrence_model_name": "hist_gradient_boosting",
+      "quantity_model_name": "hist_gradient_boosting_poisson"
+    }
+  },
+  "required_history_days": 28,
+  "feature_columns": [
+    "product_age_days",
+    "days_since_last_sale",
+    "lag_1",
+    "lag_7",
+    "lag_14",
+    "lag_28",
+    "rolling_sum_7",
+    "rolling_mean_7",
+    "rolling_positive_rate_7",
+    "rolling_sum_14",
+    "rolling_mean_14",
+    "rolling_positive_rate_14",
+    "rolling_sum_28",
+    "rolling_mean_28",
+    "rolling_median_28",
+    "rolling_std_28",
+    "rolling_positive_rate_28",
+    "rolling_sum_90",
+    "rolling_mean_90",
+    "rolling_positive_rate_90",
+    "expanding_mean_demand",
+    "expanding_positive_rate",
+    "expanding_positive_mean",
+    "lead_days",
+    "target_day_of_week",
+    "target_month",
+    "target_is_weekend",
+    "target_day_of_year_sin",
+    "target_day_of_year_cos",
+    "target_is_public_holiday",
+    "target_is_religious_holiday",
+    "target_is_national_holiday",
+    "target_is_half_day_holiday",
+    "target_is_ramadan",
+    "target_is_religious_special_day",
+    "target_days_to_public_holiday",
+    "target_days_since_public_holiday",
+    "target_is_pre_holiday_1d",
+    "target_is_pre_holiday_3d",
+    "target_is_post_holiday_1d",
+    "target_is_post_holiday_3d",
+    "target_school_in_session",
+    "target_is_school_break",
+    "target_is_midterm_break",
+    "target_is_semester_break",
+    "target_is_summer_break",
+    "target_is_extraordinary_school_closure"
+  ],
+  "feature_builder_version": "3.0.0",
+  "calendar_version": "TR_CALENDAR_2023_2027_V1",
+  "calendar_features": [
+    "target_is_public_holiday",
+    "target_is_religious_holiday",
+    "target_is_national_holiday",
+    "target_is_half_day_holiday",
+    "target_is_ramadan",
+    "target_is_religious_special_day",
+    "target_days_to_public_holiday",
+    "target_days_since_public_holiday",
+    "target_is_pre_holiday_1d",
+    "target_is_pre_holiday_3d",
+    "target_is_post_holiday_1d",
+    "target_is_post_holiday_3d",
+    "target_school_in_session",
+    "target_is_school_break",
+    "target_is_midterm_break",
+    "target_is_semester_break",
+    "target_is_summer_break",
+    "target_is_extraordinary_school_closure"
+  ],
+  "calendar_coverage": {
+    "start": "2023-01-01",
+    "end": "2027-12-31"
+  },
+  "calendar_source_manifest": "data/reference/calendar_sources.json",
+  "calendar_code_sha256": "c0ea3f4047bbf3b3eafd4121d584d113435d943bc0b6f189501ed81564e2b90e",
+  "calendar_source_manifest_sha256": "3f65b558946da27620f81338649071bee58dad9e2f2c896c3ba10d2d153a886b",
+  "weather_feature_version": "BURSA_WEATHER_FEATURES_V1",
+  "weather_candidate_features": [
+    "target_weather_temperature_mean_c",
+    "target_weather_temperature_max_c",
+    "target_weather_precipitation_mm",
+    "target_weather_snowfall_cm",
+    "target_weather_cloud_cover_pct",
+    "target_weather_wind_max_kmh",
+    "target_weather_solar_radiation_mj_m2"
+  ],
+  "weather_features": [],
+  "weather_location": "Bursa/Osmangazi city centre (40.19559, 29.06013)",
+  "weather_policy": "V1 uses expanding seasonal climatology from ERA5 dates strictly before forecast_origin. Observed target-date weather is EDA-only. Candidate weather fields were excluded from deployed estimators after validation ablation showed no robust cross-unit gain.",
+  "weather_deployment_decision": "excluded_after_validation_ablation_no_robust_gain",
+  "weather_source_manifest": "data/reference/weather_sources.json",
+  "weather_code_sha256": "97426520fa1561029cf2ed13f0ffcb2286465d143b6a27b2c08f4ffc4d04216f",
+  "weather_source_manifest_sha256": "f7375e477689d5af2535478ddb41d08ad20f24425bf7e0d5670b29b2d43f44ef",
+  "weather_observed_bundle_file": "bursa_weather_observed_era5.csv",
+  "weather_observed_bundle_sha256": "acfa75a9351bb288ae81e82eafe44b3cdaaf5130952c04f5036196d357af72ef",
+  "weather_forecast_bundle_file": "bursa_weather_previous_runs.csv",
+  "weather_forecast_bundle_sha256": "ef1edcf505f17670ed540f94483a3294d7528d2a409f332b325c856e19517b1a",
+  "training_end_date": "2026-04-21",
+  "validation_metrics": {
+    "KG": {
+      "occurrence": {
+        "pr_auc": 0.8647827660712948,
+        "precision": 0.7236339697169191,
+        "recall": 0.8657844990548205,
+        "f1": 0.7883525783547299,
+        "brier": 0.13740970007299227,
+        "positive_prediction_rate": 0.5308219178082192
+      },
+      "quantity_end_to_end": {
+        "mae": 1.809554203712025,
+        "rmse": 16.19553707433933,
+        "wape": 0.7988387848612161,
+        "bias": -0.06662468310577803
+      }
+    },
+    "ADT": {
+      "occurrence": {
+        "pr_auc": 0.6887240732753952,
+        "precision": 0.5571500503524672,
+        "recall": 0.7502966604509239,
+        "f1": 0.6394567651520624,
+        "brier": 0.18705143361980453,
+        "positive_prediction_rate": 0.46293706293706294
+      },
+      "quantity_end_to_end": {
+        "mae": 1.3625358599876558,
+        "rmse": 3.209169368954868,
+        "wape": 1.1609869088528812,
+        "bias": 0.5004837952958335
+      }
+    }
+  },
+  "test_metrics": {
+    "KG": {
+      "occurrence": {
+        "pr_auc": 0.8307047364773473,
+        "precision": 0.6980613425925926,
+        "recall": 0.8479789103690686,
+        "f1": 0.7657514680209491,
+        "brier": 0.14909162730616268,
+        "positive_prediction_rate": 0.5250683682771194
+      },
+      "quantity_end_to_end": {
+        "mae": 1.7100158248098836,
+        "rmse": 6.905478802634622,
+        "wape": 0.8777084506422842,
+        "bias": 0.0966042995854122
+      },
+      "quantity_positive_conditional": {
+        "mae": 3.4375583741969713,
+        "rmse": 17.565504797090522,
+        "wape": 0.7626488590891078,
+        "bias": 0.4729682663779565
+      }
+    },
+    "ADT": {
+      "occurrence": {
+        "pr_auc": 0.6658175562770869,
+        "precision": 0.5607207752877045,
+        "recall": 0.6823290952644187,
+        "f1": 0.6155764275621312,
+        "brier": 0.17191071384156167,
+        "positive_prediction_rate": 0.3756114207712433
+      },
+      "quantity_end_to_end": {
+        "mae": 1.0935124749045642,
+        "rmse": 2.3013355959111403,
+        "wape": 1.1323479789017048,
+        "bias": 0.27374859673742785
+      },
+      "quantity_positive_conditional": {
+        "mae": 1.7478615659179226,
+        "rmse": 3.197507670201423,
+        "wape": 0.5586692218762334,
+        "bias": -0.08593729070203772
+      }
+    }
+  },
+  "occurrence_threshold": {
+    "KG": 0.4599999999999999,
+    "ADT": 0.4699999999999999
+  },
+  "probability_calibrated": {
+    "KG": false,
+    "ADT": false
+  },
+  "quantity_target_transform": "none",
+  "quantity_postprocess": "clip_to_zero_then_threshold_gate",
+  "combination_rule": "If demand_probability >= unit threshold, use non-negative conditional quantity prediction; otherwise return zero.",
+  "zero_demand_policy": "Observed store day and product panel window without a sale is zero; globally missing store day remains unobserved.",
+  "cold_start_policy": "Products without 28-day snapshot return insufficient_history; possibly inactive products are forecast with a visible warning.",
+  "known_limitations": [
+    "No price, promotion, stockout, or store-specific closure features.",
+    "Weather is Bursa city-centre time-safe climatology, not the realised weather of the future target day.",
+    "Exact store coordinates and a complete archived/live forecast contract are not yet available.",
+    "School calendar is national; local closures and store opening hours are absent.",
+    "Forecasts near 180 days are less certain than near-term forecasts.",
+    "Probability is not calibrated and must not be labelled confidence.",
+    "Demand forecast is not a replenishment order without inventory inputs."
+  ],
+  "library_versions": {
+    "pandas": "2.3.3",
+    "numpy": "2.0.2",
+    "scikit_learn": "1.6.1",
+    "joblib": "1.5.3"
+  }
+}

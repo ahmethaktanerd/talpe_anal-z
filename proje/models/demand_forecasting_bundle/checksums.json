@@ -1,0 +1,12 @@
+{
+  "__init__.py": "6b8b385eb38facae218d27639a456d78b8ecf3127e7a58790f5c7f3e39ea0e61",
+  "bursa_weather_observed_era5.csv": "acfa75a9351bb288ae81e82eafe44b3cdaaf5130952c04f5036196d357af72ef",
+  "bursa_weather_previous_runs.csv": "ef1edcf505f17670ed540f94483a3294d7528d2a409f332b325c856e19517b1a",
+  "feature_builder.py": "22484d6325ab528e1596a4317b3bf38c79d439c02a0b09c4196939e7e03885c1",
+  "model_metadata.json": "118f7a615b54ffa7878bf9103a53de862b2eeafb9712067b2e76d51943977a7a",
+  "occurrence_model_adt.pkl": "e6de10ad67fd89b5b624790d18bbecc06e5d52abdf18875df1016c636a88695d",
+  "occurrence_model_kg.pkl": "454c319d31df20b3c9fe7be89ccbf5bd7b3d207ff5c1d8e8ad16425743c1fbb7",
+  "product_catalog.csv": "e0235efac4809bac38c7785cf427c89cc35c385192a0fdef937393f94b00ee1d",
+  "quantity_model_adt.pkl": "2b57cd05f9fd115d6b14f2eeb8f1f76b4c7c5d37aef0c608dae3a06b925071a9",
+  "quantity_model_kg.pkl": "4f2b86f9f02cecaa65bc5c768b22a75d762214f2822d19300a7226d032efad55"
+}

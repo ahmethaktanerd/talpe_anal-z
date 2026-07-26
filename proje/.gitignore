@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+.env
+.venv/
+logs/*.csv
+models/demand_forecasting_bundle/*.pkl
+data/processed/
+data/model_ready/

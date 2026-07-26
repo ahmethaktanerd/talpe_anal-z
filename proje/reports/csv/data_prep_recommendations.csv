@@ -1,0 +1,7 @@
+Sorun,Kanıt,Öneri,Öncelik,Sorumlu
+Türkçe miktar biçimi,"Nokta binlik, virgül ondalık ayıracı; karma biçimli kayıtlar mevcut.",Miktarı Türkçe sayı sözleşmesiyle ayrıştır; ham değeri izlenebilir tut.,Yüksek,DataPrep Expert
+Satışsız ürün-gün belirsizliği,1 genel takvim gününde hiç kayıt yok.,Gözlenen mağaza günlerinde aktif ürün penceresindeki yokluğu 0; genel eksik günü bilinmeyen kabul et.,Yüksek,DataPrep Expert
+Uzak gelecek tarih tahmini,İstenen tarih son gözlemden ileride olabilir; model en fazla 180 gün için doğrulanacak.,Hedef tarihi ve lead_days değişkenini kullanan doğrudan çok-ufuklu günlük model kur.,Yüksek,DataPrep + Model Expert
+Birim ayrımı,"KG=93279, ADT=89905 kayıt.","KG ve ADT hedeflerini, modellerini ve metriklerini ayrı tut.",Yüksek,DataPrep + Model Expert
+Kısa geçmiş / aktif olmayan ürün,"{'possibly_inactive': 253, 'intermittent': 188, 'continuous': 133, 'new_short_history': 99, 'sparse': 40}",Cold-start ve muhtemel aktif olmayan ürünleri ayrı işaretle; uygulamada uyarı üret.,Orta,DataPrep + Deployment Expert
+Özel tarihlerde talep rejimi,"Bayram, Ramazan, hafta sonu ve okul tatili satış davranışını değiştirebilir; ham satışta takvim etiketi yok.",TR_CALENDAR_2023_2027_V1 resmî takvimini target_date üzerinden ekle; normal gün oranları ve ablation ile doğrula.,Yüksek,DataPrep + Model Expert

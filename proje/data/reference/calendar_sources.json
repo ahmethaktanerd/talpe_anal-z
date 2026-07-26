@@ -1,0 +1,23 @@
+{
+  "calendar_version": "TR_CALENDAR_2023_2027_V1",
+  "coverage_start": "2023-01-01",
+  "coverage_end": "2027-12-31",
+  "sources": {
+    "public_holiday_law_basis": "2429 sayılı Ulusal Bayram ve Genel Tatiller Hakkında Kanun; Diyanet resmî tatil listelerinde belirtilen yasal dayanak",
+    "diyanet_2023": "https://vakithesaplama.diyanet.gov.tr/icerik.php?icerik=150",
+    "diyanet_2024": "https://vakithesaplama.diyanet.gov.tr/dinigunler.php?yil=2024",
+    "diyanet_2025": "https://vakithesaplama.diyanet.gov.tr/dinigunler.php?yil=2025",
+    "diyanet_2026": "https://vakithesaplama.diyanet.gov.tr/dinigunler.php?yil=2026",
+    "diyanet_2027": "https://vakithesaplama.diyanet.gov.tr/icerik.php?icerik=154",
+    "meb_2022_2023": "https://www.meb.gov.tr/2022-2023-egitim-ogretim-yilinin-ilk-ara-tatili-basliyor/haber/28115/tr",
+    "meb_2023_2024": "https://meb.gov.tr/2023-2024-egitim-ogretim-yilina-ait-calisma-takvimi-aciklandi/haber/30337/tr",
+    "meb_2024_2025": "https://www.meb.gov.tr/2024-2025-egitim-ogretim-yili-takvimi-aciklandi/haber/33888/tr",
+    "meb_2025_2026": "https://meb.gov.tr/2025-2026-egitim-ogretim-yili-takvimi-aciklandi/haber/37198/ar",
+    "meb_2026_2027": "https://meb.gov.tr/2026-2027-egitim-ogretim-yili-takvimi-aciklandi/haber/41057/tr"
+  },
+  "notes": [
+    "MEB ara ve yarıyıl tatilleri öğrenci davranışını temsil etmek için komşu hafta sonlarını kapsayacak şekilde genişletildi.",
+    "28 Ekim ve dinî bayram arifeleri günlük veride half-day bayrağı taşır.",
+    "Okul takvimi Türkiye geneli varsayımıdır; il/ilçe özel kapanışlarını içermez."
+  ]
+}
